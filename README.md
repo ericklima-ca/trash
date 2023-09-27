@@ -8,7 +8,7 @@
 You can install `trash` using the following command:
 
 ```sh
-go install github.com/ericklima-ca/trash
+go install github.com/ericklima-ca/trash@latest
 ```
 
 ## Usage
