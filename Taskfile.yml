@@ -1,0 +1,20 @@
+# https://taskfile.dev
+
+version: '3'
+
+tasks:
+  run:
+    cmds:
+      - go run . {{.CLI_ARGS}}
+
+  test:
+    cmds:
+      - go test .
+
+  build:
+    cmds:
+      - go build -o dist/trash .
+
+  install:
+    cmds:
+      - go install .
